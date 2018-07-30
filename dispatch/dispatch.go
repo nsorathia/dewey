@@ -1,11 +1,11 @@
 package dispatch
 
 import (
+	"dewey/common"
 	"fmt"
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"os"
 	"os/signal"
-	"dewey/common"
 	"syscall"
 )
 

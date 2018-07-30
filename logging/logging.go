@@ -14,5 +14,5 @@ func init() {
 	logger.Out = os.Stdout
 	logger.Level = log.InfoLevel
 	logger.Formatter = &log.TextFormatter{}
-	Logger = logger;
+	Logger = logger
 }

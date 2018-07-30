@@ -3,8 +3,8 @@ package common
 import (
 	"fmt"
 	"github.com/confluentinc/confluent-kafka-go/kafka"
-	"strings"
 	"os"
+	"strings"
 )
 
 //NewConsumer returns a new kafka Consumer
@@ -19,7 +19,7 @@ func NewConsumer() *kafka.Consumer {
 	if err != nil {
 		panic(err)
 	}
-	
+
 	return c
 }
 

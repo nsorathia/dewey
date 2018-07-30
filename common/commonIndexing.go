@@ -1,8 +1,8 @@
 package common
 
 import (
-	"fmt"
 	"context"
+	"fmt"
 	"github.com/olivere/elastic"
 	"sync"
 )
@@ -61,5 +61,5 @@ func IndexNewDocument(index, doctype, id string, document interface{}) {
 		//log an error
 	}
 
-	fmt.Println(document);
+	fmt.Println(document)
 }
